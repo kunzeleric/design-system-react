@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui/docs",
+  "name": "@kunzel-ignite-ui/docs",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,9 +12,9 @@
     "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
+    "@kunzel-ignite-ui/eslint-config": "*",
+    "@kunzel-ignite-ui/react": "*",
+    "@kunzel-ignite-ui/tokens": "*",
     "@phosphor-icons/react": "^2.1.5",
     "@storybook/addon-a11y": "^8.1.6",
     "polished": "^4.3.1",
