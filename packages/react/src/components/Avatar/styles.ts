@@ -4,8 +4,8 @@ import * as Avatar from '@radix-ui/react-avatar'
 export const AvatarContainer = styled(Avatar.Root, {
   borderRadius: '$full',
   display: 'inline-block',
-  width: '$12',
-  heght: '$12',
+  width: '$16',
+  heght: '$16',
   overflow: 'hidden',
 })
 
