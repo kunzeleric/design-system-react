@@ -1,6 +1,10 @@
 # @kunzel-ignite-ui/react
 
-## 1.0.2
+## 2.0.0
+
+### Major Changes
+
+- Included tooltip and toast components
 
 ### Patch Changes
 
