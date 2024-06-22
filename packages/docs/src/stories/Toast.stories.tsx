@@ -12,7 +12,6 @@ export default {
   decorators: [
     (_, { args }) => {
       const [open, setOpen] = useState(false)
-      console.log('Args..', args)
       return (
         <>
           <Box>

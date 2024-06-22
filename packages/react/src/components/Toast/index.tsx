@@ -24,13 +24,13 @@ export const Toast = ({
   description,
   ...props
 }: ToastProps) => {
-  // useEffect(() => {
-  //   let timerId: NodeJS.Timeout
-  //   if (open) {
-  //     timerId = setTimeout(() => onOpenChange(false), 3000)
-  //   }
-  //   return () => clearTimeout(timerId)
-  // }, [open, onOpenChange])
+  useEffect(() => {
+    let timerId: NodeJS.Timeout
+    if (open) {
+      timerId = setTimeout(() => onOpenChange(false), 3000)
+    }
+    return () => clearTimeout(timerId)
+  }, [open, onOpenChange])
 
   return (
     <ToastProvider>
